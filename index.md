@@ -1,8 +1,4 @@
-## Hanna Cho
 
-Hi,
-This is my first webpage. 
-Thanks for visiting.
 
 ### Markdown
 
