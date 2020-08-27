@@ -1,1 +1,1 @@
-<!doctype python>
+<!doctype html>
