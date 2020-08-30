@@ -30,11 +30,23 @@
   <br/>
   <label for="comment" class="required">Your message</label>
   <br/>
+  <br/>
   <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
   <!-- comment_post_ID value hard-coded as 1 -->
   <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
   <input name="submit" type="submit" value="Submit comment" />
  </form>
 </div>
+<?php
+require('Persistence.php');
+
+$db = new Persistence();
+if( $db->add_comment($_POST) ) {
+  header( 'Location: index.php' );
+}
+else {
+  header( 'Location: index.php?error=Your comment was not posted due to errors in your form submission' );
+}
+?>
 </footer>
 </html>
