@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE php>
+<php>
 <head>
  <meta charset="UTF-8">
  <meta name="discription" content="A very first website of portfolia by hanna cho">
