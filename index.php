@@ -1,10 +1,11 @@
-<!DOCTYPE php>
-<php>
+<!DOCTYPE html>
+<html>
 <head>
  <meta charset="UTF-8">
  <meta name="discription" content="A very first website of portfolia by hanna cho">
  <title>Hanna cho - Curriculum Vitae</title>
 </head>
+ 
 <body>
  <br/>
  <a href="https://www.mendeley.com/profiles/hanna-cho6/" target="_blank">[Mendeley]</a>
@@ -18,6 +19,7 @@
  <p>Hi, <b>Thank you</b> for visiting my website</p>
  <p>This is my very <b><i>first</i></b> website</p> 
 </body>
+ 
 <footer>
 <div id="respond">
  <h3>Feel free to leave a comment!</h3>
